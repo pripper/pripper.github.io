@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+header {
+	background-color: #bdc3c7;
+	text-align: center;
+	
+}
+
+
+body {
+	background-color: #ecf0f1;
+    Font-family: open sans;
+	
+	
+	
+}
+	
+	
+h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+	  
+}
+
+h1 {
+	font-size: 80px;
+	color: black;
+	
+	
+	
+	
+
+	
+}
+
+h2 {
+	font-size: 40px;
+	color: black;
+	
+	
+	
+}
+
+h3 {
+	color: black;
+	text-align: center;
+	
+	
+
+}
+
+.summary {
+	text-align: center;
+	
+	
+}
+.preamble {
+	background-color: #bdc3c7;
+	
+}
+.explanation {
+	background-color: #bdc3c7;
+		
+}
+
+.participation {
+	background-color: #bdc3c7;
+	
+}
+
+.benefits {
+	background-color: #bdc3c7;
+	
+}
+
+.requirements {
+	background-color: #bdc3c7;
+	
+}
+
+.design-selection{
+	background-color: #bdc3c7;
+	
+}
+
+.design-archives{
+	background-color: #bdc3c7;
+	
+}
+
+.zen-resources{
+	background-color: #bdc3c7;
+	
+}
+
+
+.preamble, .explanation, .participation, .benefits, .requirements, .summary {
+	
+	max-width: 960px;
+	margin: 0 auto;
+	
+	
+}
+
+.wrapper {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+	
+	
+}
+
+.design-selection, .design-archives, .zen-resources {
+	
+	width: 33.33333333%;
+	margin: 0 2px;
+	
+	
+}
+
+footer {
+	text-align: center;
+	
+	
+}
+
+.design-selection {
+	background-image: url(http://40.media.tumblr.com/effbf069920e301b564b0deb73d9f34b/tumblr_nsai8medM81s5qq4xo6_1280.jpg);
+	
+	
+}
+
+.design-archives {
+	background-image: url(http://static1.squarespace.com/static/541bbbe3e4b07b5243b1543f/t/548f7485e4b097bb9b9c515a/1418687622140/zen+garden.jpg?format=1500w);
+	
+	
+}
+
+.zen-resources {
+	background-image: url(http://www.justin5mins.com/wp-content/uploads/2014/12/statues-and-figurines-to-zen-your-garden.jpg);
+	
+	
+}
+
+
+
