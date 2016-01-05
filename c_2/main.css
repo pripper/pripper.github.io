@@ -40,3 +40,8 @@ display: none;
 display: none;
 font-style: italic;
 }
+
+p {
+	font-weight: bold;
+	
+}
