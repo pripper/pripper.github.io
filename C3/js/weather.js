@@ -1,9 +1,9 @@
 if("geolocation" in navigator){
 	navigator.geolocation.getCurrentPosition(function(position) {
-		loadWeather(position.coords.latitude + ',' + position.cords.longitude); 
+		loadWeather(position.coords.latitude + ',' + position.coords.longitude); 
 	});
 } else {
-	loadWeather("Kolkata, IN", "");
+	loadWeather("Stockholm", "");
 	
 	
 }
