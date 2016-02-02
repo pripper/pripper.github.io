@@ -1,22 +1,22 @@
 if("geolocation" in navigator){
 	navigator.geolocation.getCurrentPosition(function(position) {
-		loadWeather(position.coords.latitude + ',' + position.coords.longitude); 
+		
 	});
 } else {
-	loadWeather("Stockholm", "");
-	
+
 	
 }
 	
-$(document).ready(function() {
-	setInterval(getWeather, 10000);
+$.get("http://ipinfo.io", function (response) {
+    var city = response.city;
+    loadweather(city);
+}, "jsonp");
 	
-});
 
-function loadweather(location, woeid) {
+function loadweather(c) {
 	$.simpleWeather ({
-		location: location,
-		woeid: woeid,
+		location: c,
+		woeid: "",
 		unit: 'c',
 		succes: function(weather) {
 			city = weather.city;
