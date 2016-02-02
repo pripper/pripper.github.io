@@ -16,13 +16,13 @@
 
 
 	
-function weather(pos) {
-	$.simpleWeather ({
-		location: pos,
-		woeid: "",
-		unit: 'c',
-		succes: function(weather) {
-			city = weather.city;
+  function weather(pos){
+  $.simpleWeather({
+    location: pos,
+    woeid: '',
+    unit: 'c',
+    success: function(weather) {
+    	city = weather.city;
 			temp = weather.temp+'&deg';
 			wcode = '<img class="weathericon" src="images/weathericons/' + weather.code + '.svg">' ;
 			wind = '<p>' + weather.wind.speed + '</p><p>' + weather.units.speed + '</p>';
@@ -33,11 +33,9 @@ $(".temperature").html(temp);
 $(".climate_bg").html(wcode);
 $(".windspeed").html(wind);
 $(".humadity").text(humadity);
-		},
-		error: function(error) {
-			$(".error").html('<p>' + error + '</p>');
-		}
-	});
-			
-	
+    },
+    error: function(error) {
+      $(".weather").html('<p>'+error+'</p>');
+    }
+  });
 }
