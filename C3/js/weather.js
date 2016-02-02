@@ -1,21 +1,24 @@
-if("geolocation" in navigator){
-	navigator.geolocation.getCurrentPosition(function(position) {
-		
-	});
-} else {
+
+  getLocation();
+  function getLocation() {
+      if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+          pos = 'Stockholm';
+      }
+  }
+  function showPosition(position) {
+      var lat = position.coords.latitude;
+      var lng = position.coords.longitude;
+      var pos = '' + lat + ',' + lng + '';
+      weather(pos);
+  }
+
 
 	
-}
-	
-$.get("http://ipinfo.io", function (response) {
-    var city = response.city;
-    loadweather(city);
-}, "jsonp");
-	
-
-function loadweather(c) {
+function weather(pos) {
 	$.simpleWeather ({
-		location: c,
+		location: pos,
 		woeid: "",
 		unit: 'c',
 		succes: function(weather) {
