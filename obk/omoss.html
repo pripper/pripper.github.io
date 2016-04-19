@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+  <title>Örebro Bygg & Konsult AB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen" href="main.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+var myCenter=new google.maps.LatLng(59.289797,15.214732);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:15,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+    
+</head>
+ <body>
+     
+    <header>
+<img class="img-responsive" src="img/headertrans.png" alt="obkhead" width="880" height="200">
+ <div class="containerhead">
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">OBK AB</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="omoss.html">Om oss</a></li>
+      <li><a href="projekt.html">Projekt</a></li>
+      <li><a href="kontakt.html">Kontakta oss</a></li>
+    </ul>
+  </div>
+ </nav>
+ </div>
+     </header>
+     
+     <div class="content">
+        <div class="container">
+   
+    <div class="col-xs-12 col-sm-6 col-lg-8"> 
+        <h1>Om oss</h1>
+        <p class="serif">OBK är ett bolag som startades 2011 med konsultverksamhet inom byggbranschen som bas och som även utförde en del
+            byggentreprenader mot förtroendekunder. Där    utav namnet Örebro Bygg & Konsult AB (OBK). Bolaget har sitt säte i Örebro, 
+            och verksamhetsområdet är Mellansverige. 
+        Våren 2015 skedde en stor förändring av bolagets inriktning mot framtiden. 
+            De två tidigare ägarna sålde bolaget till fem nya medarbetare som valde att ändra huvudinriktning från konsult till bygg. 
+            Konsultdelen finns fortfarande kvar och drivs av en av de tidigare ägarna och berör främst kostnadskalkyler i tidiga skeden. 
+            Efter övertagandet är det dock byggdelen av bolaget som är den dominerande delen. 
+            OBK har sedan övertagandet 2015 vuxit starkt och har idag cirka 35-40 anställda. 
+            OBK:s medarbetare har lång erfarenhet från både tunga industrijobb och stora husbyggnationer.
+        </p>
+            </div>
+		
+    
+		  
+		<div class="col-xs-12 col-sm-6 col-lg-4 text-center"> 
+       
+        <div id="googleMap" style="Maxwidth:500px;height:300px;"></div>
+        <p class="serif">Virkesvägen 8 703 63 Örebro</p>
+            
+                            </div>
+            
+   
+   
+		
+		
+  
+		   
+		  
+		   
+		  
+    </div>
+      </div>
+     
+<footer>
+			<p class="serif">Copyright &copy; Johan Strömvall</p>
+		</footer>
+
+ </body>
