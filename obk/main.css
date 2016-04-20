@@ -49,13 +49,42 @@ p {
     
 }
 
+li {
+    
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.navbar-brand {
+    
+    
+    font-weight: bold;
+    
+}
 .serif {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     padding-top:5px;
 }
 
+.serif1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-top: -5px;
+    
+    
+}
 
+.serif2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-top: -15px;
+    
+    
+}
 
 IMG.img-responsive {
     display: block;
@@ -79,7 +108,7 @@ IMG.img-responsive {
 
 	max-width: 1200px;
 	margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 20px;
    
 }
@@ -133,6 +162,12 @@ IMG.img-responsive {
    width: 100%;
    height: 100%;
    
+    
+    
+}
+
+.col-xs-12 col-sm-4 col-lg-2 span {
+    margin-top:10px;
     
     
 }
