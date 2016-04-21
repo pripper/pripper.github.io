@@ -189,6 +189,10 @@ IMG.img-responsive {
     
 }
 
+#tel, #mail {
+  display: none;
+}
+
 footer  {
   
 
