@@ -110,6 +110,7 @@ IMG.img-responsive {
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 20px;
+    max-height: 350px
     
 }
 
