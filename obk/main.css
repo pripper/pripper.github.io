@@ -108,17 +108,19 @@ IMG.img-responsive {
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     
 }
 
+
+
 .containerhead {
 	
-	padding: 10px;
-	max-width: 1220px;
+	
+	max-width: 1200px;
 	margin: 0 auto;
-    padding-bottom: 0px;
-    border-radius: 10px;
+    
+    
 }
 .container {
 	
