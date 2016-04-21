@@ -51,7 +51,7 @@ p {
 
 li {
     
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     
     
@@ -61,7 +61,7 @@ li {
 .navbar-brand {
     
     
-    font-weight: bold;
+    font-weight: bold
     
 }
 .serif {
@@ -122,6 +122,10 @@ IMG.img-responsive {
     
     
 }
+
+
+    
+}
 .container {
 	
 
@@ -138,7 +142,7 @@ IMG.img-responsive {
 	background-color: #ecf0f1;
 	max-width: 1200px;
 	margin: auto;
-	
+	padding-top: 15px;
     box-shadow: 0px 0px 10px #000000;
     margin-bottom: 20px;
    
@@ -149,6 +153,7 @@ IMG.img-responsive {
 
 .container-fluid {
     box-shadow: 0px 0px 10px #000000;
+    
     
     
 	
