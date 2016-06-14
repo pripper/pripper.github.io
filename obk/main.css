@@ -9,33 +9,43 @@ body {
     background-size: cover;
 }
 
+
 h1 {
     text-align: center;
     margin: 0 auto;
-    font-style: italic;
+   
+    padding-bottom: 10px;
+    
+    
+
    
 }
+
 
 h2 {
     
     text-align: center;
     padding-bottom: 10px;
     margin: 0 auto;
-    font-style: italic;
+    
+    
     
 }
 
 h3 {
     
-    font-style: italic;
+  
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 10px;
+   
 }
 
 h4 {
-    font-style: italic;
+   
     text-align: center;
     margin: 0 auto;
+    font-style: normal;
     
 }
     
@@ -43,73 +53,90 @@ h4 {
 
 p {
     margin: 0 auto;
-    font-style: italic;
+    
     width: 100%;
     height: 100%;
-    padding-top: 10px
+    padding-top: 15px;
+        font-size: 15px;
+       
+    padding-bottom: 8px;
+        
     
+    
+    
+}
+
+.contactButton {
+    margin-bottom: 10px;
+    margin-top: 10px;
     
     
 }
 
 li {
     
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     
     
     
+    
 }
+
+
 
 .navbar-brand {
     
-    font-style: italic;
-    font-weight: bold
-        
-}
-        
-        .navbar {
-            font-style: italic;
-            
-    }
     
+    font-weight: bold;
+         
+    font-size: 200%;
+
+        
+        
 }
+   
+
+     
+
 .serif {
-    font-family: "Times New Roman", Times, serif;
+    
     font-size: 20px;
     padding-top:5px;
+    
+    
     
 }
 
 .serif1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    margin-top: -5px;
+    
+    font-size: 17px;
+    margin-top: -30px;
     
     
 }
 
 .serif2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    margin-top: -15px;
+    
+    font-size: 17px;
+    margin-top: -30px;
     
     
     
 }
 
 .serif3 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    margin-top: -18px;
+    
+    font-size: 14px;
+    margin-top: -35px;
     
     
 }
 
 .serif4 {
-    font-family: "Times New Roman", Times, serif;
+    
     font-size: 16px;
-    margin-top: -17px;
+    
     
     
 }
@@ -144,8 +171,8 @@ IMG.img-responsive {
 
 	max-width: 1200px;
 	margin: 0 auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
+   
+    
    
 }
 
